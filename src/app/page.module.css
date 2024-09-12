@@ -1,0 +1,50 @@
+/* page.module.css */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #FDE4C6; /* Cor de fundo */
+  margin: 0;
+  padding: 0 20px; /* Espaço lateral */
+}
+
+.content {
+  text-align: center;
+  display: flex;
+  flex-direction: column; /* Alinha o conteúdo verticalmente */
+  align-items: center; /* Centraliza horizontalmente */
+  max-width: 90%; /* Limita a largura máxima */
+  margin: 0 auto; /* Centraliza horizontalmente */
+}
+
+.image {
+  max-width: 100%; /* Ajusta a imagem para caber dentro do contêiner */
+  height: auto; /* Mantém a proporção da imagem */
+  cursor: pointer; /* Muda o cursor para indicar que é clicável */
+  margin-bottom: 20px; /* Espaço abaixo da imagem */
+}
+
+.subtitle {
+  font-size: 20px;
+  color: #333; /* Cor do texto do subtítulo */
+  margin-bottom: 20px; /* Espaço abaixo do subtítulo */
+}
+
+.button {
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 18px;
+  color: #ffffff;
+  background-color: #4CBEB0; /* Cor do botão */
+  text-decoration: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra do botão */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.button:hover {
+  background-color: #3a9b8e; /* Cor do botão ao passar o mouse */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Sombra do botão ao passar o mouse */
+}
