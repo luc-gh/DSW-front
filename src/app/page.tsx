@@ -16,7 +16,7 @@ const HomePage = () => {
           />
         </Link>
         <p className={styles.subtitle}>Adote Amor, Mude uma Vida!</p>
-        <Link href="src/app/adoption/adoption.tsx" className={styles.button}>
+        <Link href="pages/adoption.tsx" className={styles.button}>
           Veja a lista de animais disponíveis para adoção
         </Link>
       </div>
