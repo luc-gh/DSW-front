@@ -6,7 +6,7 @@ const HomePage = () => {
   return (
     <div className={styles.container}>
       <div className={styles.content}>
-        <Link href="/adoption">
+        <Link href="/adoption/page">
           <Image
             src="/images/acolhepetremovebg.png"
             alt="Descrição da Imagem"
@@ -16,7 +16,7 @@ const HomePage = () => {
           />
         </Link>
         <p className={styles.subtitle}>Adote Amor, Mude uma Vida!</p>
-        <Link href="pages/adoption.tsx" className={styles.button}>
+        <Link href="/adoption" className={styles.button}>
           Veja a lista de animais disponíveis para adoção
         </Link>
       </div>
