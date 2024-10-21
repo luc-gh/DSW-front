@@ -1,7 +1,8 @@
 // src/app/page.tsx
 
 import styles from './adoption.module.css';
-
+import PetProfile from '@/components/PetProfile';
+import { getAnimals } from '@/server/animals';
 // const animals = [
 //   {
 //     id: 1,
@@ -29,22 +30,12 @@ import styles from './adoption.module.css';
 //   },
 // ];
 
-async function getAnimals(){
-
-}
-
 const AdoptionPage = async () => {
-  let data = await getAnimals();
+  const data = await getAnimals();
   return (
     <div className={styles.container}>
-      {animals.map((animal) => (
-        <div key={animal.id.toString()} className={styles.card}>
-          <img src={animal.imageUrl} alt={animal.name} />
-          <div className={styles.cardContent}>
-            <h2 className={styles.cardTitle}>{animal.name}</h2>
-            <p className={styles.cardDescription}>{animal.description}</p>
-          </div>
-        </div>
+      {data.map((animal) => (
+        <PetProfile {...animal}/>
       ))}
     </div>
   );
