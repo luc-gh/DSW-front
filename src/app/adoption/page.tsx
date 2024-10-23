@@ -6,9 +6,9 @@ import { getAnimals } from '@/server/animals';
 const AdoptionPage = async () => {
   const data = await getAnimals();
   return (
-    <div className='grid grid-cols-2'>
+    <div className='grid grid-cols-2 gap-10'>
       {data.map((animal) => (
-        <PetProfile {...animal}/>
+        <PetProfile key={animal.id.toString()} {...animal}/>
       ))}
     </div>
   );
