@@ -6,10 +6,12 @@ import { getAnimals } from '@/server/animals';
 const AdoptionPage = async () => {
   const data = await getAnimals();
   return (
-    <div className='grid grid-cols-2 gap-10'>
-      {data.map((animal) => (
-        <PetProfile key={animal.id.toString()} {...animal}/>
-      ))}
+    <div className=''>
+      <div className='w-[90%] grid grid-cols-4 gap-10 bg-slate-50 rounded'>
+        {data.map((animal) => (
+          <PetProfile key={animal.id.toString()} {...animal}/>
+        ))}
+      </div>
     </div>
   );
 };
