@@ -28,23 +28,23 @@ export default AdoptionPage
 // import PetProfile from '@/components/PetProfile';
 // import { getAnimals } from '@/server/animals';
 
- const AdoptionPage = async () => {
-   const data = await getAnimals();
-  
-   return (
-     <div className="max-w-[90%] max-h-[85%] mr-[5%] ml-[5%]">
-      <div className="mb-8">
-         <h3 className='font-bold text-2xl'>Sessão de Adoção</h3>
-         <p className='text-gray-700'>Veja a lista de animais disponíveis para adoção.</p>
-       </div>
-      
-       <div className='grid grid-cols-2 gap-10 overflow-hidden bg-slate-50 p-5'>
-         {data.map((animal) => (
-           <NewPetProfile key={animal.id.toString()} {...animal}/>
-         ))}
-       </div>
-     </div>
-   );
+const AdoptionPage = async () => {
+  const data = await getAnimals();
+
+  return (
+      <div className="max-w-screen-lg mx-auto px-4">
+          <div className="mb-8 text-center">
+              <h3 className='font-bold text-2xl'>Sessão de Adoção</h3>
+              <p className='text-gray-700'>Veja a lista de animais disponíveis para adoção.</p>
+          </div>
+
+          <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 bg-slate-50 p-5 rounded-lg shadow-md'>
+              {data.map((animal) => (
+                  <NewPetProfile key={animal.id.toString()} {...animal} />
+              ))}
+          </div>
+      </div>
+  );
 };
 
 export default AdoptionPage;
