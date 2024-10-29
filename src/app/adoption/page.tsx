@@ -38,7 +38,7 @@ const AdoptionPage = async () => {
               <p className='text-gray-700'>Veja a lista de animais disponíveis para adoção.</p>
           </div>
 
-          <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 bg-slate-50 p-5 rounded-lg shadow-md'>
+          <div className='grid grid-cols-1 max-h-[85vh] overflow-y-scroll sm:grid-cols-2 lg:grid-cols-3 gap-8 bg-slate-50 p-5 rounded-lg shadow-md'>
               {data.map((animal) => (
                   <NewPetProfile key={animal.id.toString()} {...animal} />
               ))}
