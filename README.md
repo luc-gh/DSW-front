@@ -22,19 +22,11 @@ Com uma interface amigável e design responsivo, AcolhePet é o lugar ideal para
 
 ## 📷 Telas do Site
 
-![Tela de Adoção](URL_DA_IMAGEM_1)
-![Tela de Detalhes do Animal](URL_DA_IMAGEM_2)
-![Tela de Cadastro](URL_DA_IMAGEM_3)
+![Sessão Inicial](https://github.com/luc-gh/DSW-front/blob/main/telas/tela1.jpeg)
+![Sessão de Adoção](https://github.com/luc-gh/DSW-front/blob/main/telas/tela2.jpeg)
 
-> Adicione suas imagens das telas do site AcolhePet acima. 🖼️
-
-## 🤝 Contribuição
-
-Sinta-se à vontade para contribuir com o projeto. Qualquer sugestão ou melhoria será bem-vinda! ✨
-
-## 📜 Licença
-
-Este projeto é licenciado sob a [MIT License](LICENSE). 🆗
+![Sessão de Detalhes do Animal](https://github.com/luc-gh/DSW-front/blob/main/telas/tela3.jpeg)
+![Sessão de Cadastro para Adoção](https://github.com/luc-gh/DSW-front/blob/main/telas/tela4.jpeg)
 
 
 
