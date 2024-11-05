@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🐾 AcolhePet
 
-## Getting Started
+*AcolhePet* é um site dedicado a conectar animais de estimação que precisam de um lar amoroso com pessoas dispostas a acolhê-los. Nosso objetivo é facilitar o processo de adoção, proporcionando uma plataforma intuitiva e acessível para que todos possam encontrar seu novo amigo de quatro patas. 🏡❤️
 
-First, run the development server:
+## 🚀 Tecnologias Utilizadas
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **React.js**: Para construir a interface do usuário. ⚛️
+- **Next.js**: Para otimizar o desempenho e a estrutura do site. 📈
+- **Tailwind CSS**: Para estilização responsiva e moderna. 🎨
+- **MongoDB**: Para armazenar dados de forma eficiente. 💾
+- **Figma**: Para design e protótipos da interface. 🖌️
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🌟 Funcionalidades
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+No AcolhePet, os usuários podem:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- 🐶 **Navegar** por uma ampla seleção de animais disponíveis para adoção.
+- 🖼️ **Ver** fotos e descrições detalhadas.
+- 📝 **Aprender** mais sobre a personalidade e necessidades de cada pet.
 
-## Learn More
+Com uma interface amigável e design responsivo, AcolhePet é o lugar ideal para quem deseja fazer a diferença na vida de um animal, oferecendo-lhe um lar cheio de carinho e cuidado. Aqui, acreditamos que cada pet merece uma segunda chance, e estamos comprometidos em ajudar a construir essas novas histórias de amor e companheirismo. 💖
 
-To learn more about Next.js, take a look at the following resources:
+## 📷 Telas do Site
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![Sessão Inicial](https://github.com/luc-gh/DSW-front/blob/main/telas/tela1.jpeg)
+![Sessão de Adoção](https://github.com/luc-gh/DSW-front/blob/main/telas/tela2.jpeg)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+![Sessão de Detalhes do Animal](https://github.com/luc-gh/DSW-front/blob/main/telas/tela3.jpeg)
+![Sessão de Cadastro para Adoção](https://github.com/luc-gh/DSW-front/blob/main/telas/tela4.jpeg)
 
-## Deploy on Vercel
+## 🔗 Repositório do Backend
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Você pode encontrar o repositório do back-end do AcolhePet aqui: [DSW-back](https://github.com/luc-gh/DSW-back).
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 👥 Desenvolvedores
+
+Este projeto foi desenvolvido por:
+
+- [Arnaldo Lucas](https://github.com/luc-gh) 👨‍💻
+- [Everton Reis](https://github.com/evertonreis1) 👨‍💻
+- [Jorge Lucas](https://github.com/jorge-sa) 👨‍💻
+
+
+
+
